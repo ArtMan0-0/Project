@@ -39,11 +39,11 @@ nav a {
 
 .slider {
     background-image: url(https://t3.ftcdn.net/jpg/04/45/16/96/360_F_445169635_V92LnhJXoMapMXuR4k9bVIu3lHZhDnWc.jpg);
-background-size: cover;
-background-position: center;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 4rem 2rem;
     text-align: center;
     justify-content: center;
@@ -78,23 +78,35 @@ align-items: flex-end;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
- .product:nth-child(1) {
+
+.product:nth-child(1) {
     background-image: url(https://th.bing.com/th/id/R.e5b9d34e5cfdcae4d225a03545594981?rik=eIZiP6QTaYUsaw&pid=ImgRaw&r=0);
-    background-size: contain; 
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
- }
-  .product:nth-child(2) {
-    background-image: url(
-  }
+    background-position: left;
+}
 
-  .product:nth-child(3) {
-    background-image: url(
-  }
+.product:nth-child(2) {
+    background-image: url(https://expertpc.ua/upload/resize_cache/iblock/1bb/550_100/1bb4b6a93f3af629ff7518b67ff058b0.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left;
+}
 
-  .product:nth-child(4) {
-    background-image: url(
-  }
+.product:nth-child(3) {
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6enhZRXLmx2suNLOaca76bgCpTzABN591LCuCMMSOq1weA7svp7U9uGi17vH84mPXro-Bp92AAfZFK0nXdIekG_gAOnunjGs9RwY4xntzB8GBd7YROCyjCQ);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.product:nth-child(4) {
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT6sYdAX_R6K_571yrtz_g0DZ7-fXG6FnzVVQuzvUrvdP1wuVSwhjeDcZeGElmDTfNn9XMmKMDfXImdri1Q_yP3we5wj1KCkCIP4Vlpm_I22ry7-3I_3soUAQ);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .product button {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
@@ -143,5 +155,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-} 
-
+}
