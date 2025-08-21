@@ -166,3 +166,8 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+.fix-img img{
+  max-width: 96px;
+
+}
