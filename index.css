@@ -1,40 +1,40 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F9FBFE;
-    color: #222;
+  font-family: Arial, sans-serif;
+  background-color: #f9fbfe;
+  color: #222;
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
 }
 
 .search {
-    padding: 2rem;
-    text-align: center;
+  padding: 2rem;
+  text-align: center;
 }
 
 .search input {
-    padding: 1rem;
-    width: 60%;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 .slider {
@@ -51,32 +51,41 @@ nav a {
 }
 
 .slider h1 {
-    color: #1d5e81;
-    margin-bottom: 1rem;
+  color: #1d5e81;
+  margin-bottom: 1rem;
 }
 
 .slider button {
-    padding: 1rem 2rem;
-    background-color: #00BFFF;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .product {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+.product:nth-child(1) {
+  background-image: url(https://th.bing.com/th/id/R.e5b9d34e5cfdcae4d225a03545594981?rik=eIZiP6QTaYUsaw&pid=ImgRaw&r=0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.product:nth-child(2) {
+  background-image: url();
 }
 
 .product:nth-child(1) {
@@ -107,47 +116,48 @@ nav a {
     background-position: left;
 }
 
+
 .product button {
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .advantages {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: #E6F0FA;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #e6f0fa;
 }
 
 .advantages div {
-    text-align: center;
+  text-align: center;
 }
 
 .subscribe {
-    background-color: #DFF0FF;
-    padding: 2rem;
-    text-align: center;
+  background-color: #dff0ff;
+  padding: 2rem;
+  text-align: center;
 }
 
 .subscribe input {
-    padding: 1rem;
-    width: 250px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 .subscribe button {
-    padding: 1rem 2rem;
-    margin-left: 1rem;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 footer {
