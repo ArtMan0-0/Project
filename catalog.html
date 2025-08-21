@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Синій Інтернет-Магазин</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./catalog.css">
+</head>
+
+<body>
+    <header>
+        <div><strong>BlueShop</strong></div>
+        <nav>
+            <a href="./index.html">Головна</a>
+            <a href="./catalog.html">Каталог</a>
+            <a href="#">Про нас</a>
+            <a href="#">Контакти</a>
+        </nav>
+        <div>
+            <a href="#" style="color:white">Увійти</a> | 🛒
+        </div>
+    </header>
+    <h1>Каталог товарів</h1>
+    <div class="container">
+        <div class="catalog">
+            <div class="product-catalog" data-id="1" data-name="Ноутбук1" data-price="25000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwSSggefDs1gnQpfdMUkMpoKopB2d_SQ9-w&s" alt="Ноутбук">
+                <h3>Ноутбук</h3>
+                <p>₴25 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="14" data-name="Ноутбук2" data-price="25000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwSSggefDs1gnQpfdMUkMpoKopB2d_SQ9-w&s" alt="Ноутбук">
+                <h3>Ноутбук</h3>
+                <p>₴25 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="13" data-name="Ноутбук" data-price="25000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwSSggefDs1gnQpfdMUkMpoKopB2d_SQ9-w&s" alt="Ноутбук">
+                <h3>Ноутбук</h3>
+                <p>₴25 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="2" data-name="Смартфон" data-price="15000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5iIzBXtAr4Tv0pQ60xtG_EVm-zopuLqVKDg&s" alt="Смартфон">
+                <h3>Смартфон</h3>
+                <p>₴15 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="21" data-name="Смартфон3" data-price="15000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5iIzBXtAr4Tv0pQ60xtG_EVm-zopuLqVKDg&s" alt="Смартфон">
+                <h3>Смартфон</h3>
+                <p>₴15 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="232" data-name="Смартфон33" data-price="15000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5iIzBXtAr4Tv0pQ60xtG_EVm-zopuLqVKDg&s" alt="Смартфон">
+                <h3>Смартфон</h3>
+                <p>₴15 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="3" data-name="Навушники" data-price="3000">
+                <img src="https://skay.ua/176692-thickbox_default/bezdrotovi-navushniki-apple-airpods-3-with-lightning-charging-case-mpny3.jpg" alt="Навушники">
+                <h3>Навушники</h3>
+                <p>₴3 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="33" data-name="Навушники2" data-price="3000">
+                <img src="https://skay.ua/176692-thickbox_default/bezdrotovi-navushniki-apple-airpods-3-with-lightning-charging-case-mpny3.jpg" alt="Навушники">
+                <h3>Навушники</h3>
+                <p>₴3 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+            <div class="product-catalog" data-id="23" data-name="Навушники3" data-price="3000">
+                <img src="https://skay.ua/176692-thickbox_default/bezdrotovi-navushniki-apple-airpods-3-with-lightning-charging-case-mpny3.jpg" alt="Навушники">
+                <h3>Навушники</h3>
+                <p>₴3 000</p>
+                <button class="add-to-cart">Додати в кошик</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="cart">
+        <h2>Кошик</h2>
+        <ul id="cart-items"></ul>
+        <div class="wrapper">
+            <p>Загальна сума: ₴<span id="total">0</span> <br> <button class="confirm" onclick="confirmed">Оформити замовлення</button></p>
+        </div>
+    </div>
+
+    <section class="subscribe">
+        <h2>Підпишіться на новини</h2>
+        <input type="email" placeholder="Ваш email">
+        <button>Підписатись</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BlueShop. Всі права захищено.</p>
+    </footer>
+    <script src="./main.js">
+
+    </script>
+</body>
+
+</html>
